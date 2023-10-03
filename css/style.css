@@ -1,0 +1,105 @@
+body{
+   line-height: 2;
+}
+
+
+header, nav{
+    padding: 15px 10px 15px 20px;
+    margin: 5px 10px 15px 20px;
+}
+
+nav{
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+
+nav ul li{
+    display: inline;
+    padding: 10px 15px 10px 15px;
+    /*margin: 0 15px 0 15px;
+    border: 2px dotted black;*/
+    background-color: orange;
+}
+
+nav a{
+    text-decoration: none dotted red;
+}
+
+a:visited{
+    /* Set color */
+
+}
+
+nav a.current{
+    /* Set text decoration, transformation, and underline properties */
+}
+
+
+h1{
+    font-size: 40px; 
+    font-family: 'Merriweather', 'Anton', 'Times New Roman', serif;
+
+}
+
+h2{
+    /*Set font, font size, and alignment*/
+}
+
+h3{
+    /*Set font size*/
+
+}
+
+h1, h2, h3{
+    /*Set margin */
+
+}
+.grid{
+    display: grid;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    row-gap: 10px;
+    background-color: gray;
+}
+
+.grid div{
+    border: 3px solid black;
+    background-color: white;
+}
+
+.grid img{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+.grid div:nth-child(3n+1)  {
+    /* Set box shadow */
+    }
+
+.grid div:nth-child(3n)  {
+    /* Set box shadow */ 
+}
+
+.grid div:nth-child(3n+2)  {
+     /* Set box shadow */
+}
+    
+
+p + p {
+     /* Set indentation */
+  }
+  
+p{
+     /* Set margin */
+}
+
+
+.grid ul li{
+    /* Set margin, line-spacing, list styling  */
+}
